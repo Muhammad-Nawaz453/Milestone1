@@ -1,0 +1,19 @@
+         <ul>
+                <h1>Personal Information</h1>
+                <li>Name: Muhammad Nawaz</li>
+                <li>Contact Details: 0000-11223344 </li>
+                <h1>Education</h1>
+                <li>9th percentage: 80%</li>
+                <li>10th Percentage: 80%</li>
+                <li>1st year: 77%</li>
+                <h1>Skills</h1>
+                <li>Ms Office</li>
+                <li>Adobe Photoshop</li>
+                <li>Adobe Illustrator</li>
+                <li>UI/UX designing figma</li>
+                <li>Html,Css,C/C++ and Typescript</li>
+                <li>Video Editing</li>
+                <h1>Work experience</h1>
+                <li>Company: ABC limited</li>
+                <li>Role: Graphic Designer</li>
+            </ul>

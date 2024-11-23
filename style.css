@@ -1,0 +1,176 @@
+
+*
+ {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif ;
+
+}
+body{
+    background: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.Container
+{
+position: relative;
+width: 100%;
+max-width: 1000px;
+min-height: 1000px;
+margin: 50px;
+background: #fff;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+}
+.Container .left_side{
+
+    position: relative;
+    background: rgb(87, 48, 0);
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgmBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profileText .imgmBx img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
+.profileText h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profileText h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.left_side .careerObjective h2{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+margin-top: 20px;
+margin-bottom: 7px;
+}
+.left_side .careerObjective p{
+    position: relative;
+    color: #cbcbcb;
+    font-weight: 300;
+
+}
+.left_side .certifications h2{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+margin-top: 20px;
+margin-bottom: 7px;
+}
+.left_side .certifications h4{
+    position: relative;
+    color: #cbcbcb;
+    font-weight: 300;
+
+}
+.left_side .Languages h2{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+margin-top: 20px;
+margin-bottom: 7px;
+}
+.left_side .Languages .text{
+    position: relative;
+    color: #cbcbcb;
+    font-weight: 300; 
+   
+}
+.left_side .Languages li{
+    color: #cbcbcb;
+    margin-bottom: 15px;
+}
+.left_side .Languages .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(0, 0, 0);
+    display: block;
+    margin-top: 5px;
+}
+.left_side .Languages .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #f46b03;
+}
+
+
+
+.Container .rigt_side{
+
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+.right_side h1{
+    position: relative;
+    color: rgb(87, 48, 0);
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    margin-left: 30px;
+    margin-top: 5%;
+    font-weight: 700;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(87, 48, 0);
+}
+.right_side li{
+    position: relative;
+    letter-spacing: 1px;
+    margin-left: 30px;
+   text-decoration: solid;
+   font-weight: 1000;
+
+}
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+button:hover {
+    background-color: rgb(87, 48, 0);
+    color: #fff;
+}
